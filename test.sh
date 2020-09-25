@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in {0..20}
+for i in {0..10}
 do
-   curl localhost:12009/HelloWorld.html &
+   curl localhost:12000/HelloWorld.html &
 done
